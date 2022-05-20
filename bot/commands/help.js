@@ -5,9 +5,6 @@ export default new Command({
     name: 'help',
     description: 'Get help',
     options: [],
-    testing: {
-        guildId: '' // Your guild ID here
-    },
     execute: async (command, options, utils) => {
         command.view(
             <message>
