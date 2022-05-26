@@ -1,0 +1,23 @@
+{
+    "guildCommands": {},
+    "publicCommands": [
+        {
+            "name": "hello-vercel",
+            "description": "Hello there Vercel!",
+            "options": [],
+            "name_localizations": {},
+            "description_localizations": {}
+        }
+    ],
+    "all": {
+        "hello-vercel": {
+            "name": "hello-vercel",
+            "description": "Hello there Vercel!",
+            "options": [],
+            "name_localizations": {},
+            "description_localizations": {},
+            "type": "global",
+            "_filePath": "help.js"
+        }
+    }
+}
