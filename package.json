@@ -19,6 +19,6 @@
     "@babel/preset-react": "^7.16.5"
   },
   "dependencies": {
-    "@conflict/beta": "^0.8.21"
+    "@conflict/beta": "^0.8.22"
   }
 }
