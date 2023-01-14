@@ -15,12 +15,12 @@ export default new Command({
                 </Embed>
 
                 <ActionRow>
-                    <StatelessButton onclick={(event) => {
+                    <Button onclick={(event) => {
                         event.respond({ content: 'You clicked me!', ephemeral: true });
-                    }} variant="green">Green Button</StatelessButton>
-                    <StatelessButton onclick={(event) => {
+                    }} variant="green">Green Button</Button>
+                    <Button onclick={(event) => {
                         event.respond({ content: 'You clicked me!', ephemeral: true });
-                    }} variant="green">Green Button</StatelessButton>
+                    }} variant="green">Green Button</Button>
                 </ActionRow>
 
                 <ActionRow>
