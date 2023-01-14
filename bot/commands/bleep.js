@@ -53,7 +53,7 @@ export default new Command({
                 </ActionRow>
             </message>
         );
-        command.respond(buttonView);
+        await command.respond(buttonView);
     }
 }).localize({
     'es-ES': {
