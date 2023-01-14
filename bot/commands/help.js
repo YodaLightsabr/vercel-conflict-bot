@@ -18,3 +18,15 @@ export default new Command({
         command.respond(view);
     }
 });
+
+
+const view = global.__ConflictViewParser("message", null, global.__ConflictViewParser(Embed, {
+    color: "#ff3333",
+    image: {
+      url: "https://conflict.js.org/favicon.png"
+    }
+  }, global.__ConflictViewParser("title", null, "Hello, Vercel!"), global.__ConflictViewParser("description", null, "Welcome to **Conflict**.")));
+
+  console.log({
+    view
+  });
