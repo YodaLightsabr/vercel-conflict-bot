@@ -6,6 +6,7 @@ export default new Command({
     description: 'Hello there Vercel!',
     options: [],
     execute: async (command, options, utils) => {
+        return command.reply('hi');
         command.view(
             <message>
                 <Embed color="#ff3333" image={{ url: "https://conflict.js.org/favicon.png" }}>
