@@ -1,10 +1,7 @@
-# Conflict starter
-Starter template for [Conflict](https://conflict.js.org). To get started, run
-```
-npx create-conflict-app
-```
-Once you've run the command, set the guild ID in `bot/commands/help.js` to define your first guild command.
-To start development, run
-```
-npm run dev
-```
+# Conflict on Vercel
+
+A bare-bones testing bot for Conflict on Vercel
+
+See it for yourself at https://discord.gg/McM5r6dkcc and run `/hello-vercel`.
+
+The deployment is live at https://vercel-conflict-bot.vercel.app/.
