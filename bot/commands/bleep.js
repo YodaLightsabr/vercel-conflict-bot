@@ -15,12 +15,7 @@ export default new Command({
                 </Embed>
 
                 <ActionRow>
-                    <StatelessButton onclick={(event) => {
-                        event.respond({ content: 'You clicked me!', ephemeral: true });
-                    }} variant="green">Green Button</StatelessButton>
-                    <StatelessButton onclick={(event) => {
-                        event.respond({ content: 'You clicked me!', ephemeral: true });
-                    }} variant="green">Green Button</StatelessButton>
+                    <ServerlessButton name="name" params={['hi']} variant="green">Green Button</ServerlessButton>
                 </ActionRow>
 
                 <ActionRow>

@@ -11,21 +11,9 @@ export default new Command({
       image: {
         url: "https://conflict.js.org/favicon.png"
       }
-    }, global.__ConflictViewParser("title", null, "Hello, world!"), global.__ConflictViewParser("description", null, "Welcome to **Conflict**.")), global.__ConflictViewParser(ActionRow, null, global.__ConflictViewParser(StatelessButton, {
-      onclick: event => {
-        event.respond({
-          content: 'You clicked me!',
-          ephemeral: true
-        });
-      },
-      variant: "green"
-    }, "Green Button"), global.__ConflictViewParser(StatelessButton, {
-      onclick: event => {
-        event.respond({
-          content: 'You clicked me!',
-          ephemeral: true
-        });
-      },
+    }, global.__ConflictViewParser("title", null, "Hello, world!"), global.__ConflictViewParser("description", null, "Welcome to **Conflict**.")), global.__ConflictViewParser(ActionRow, null, global.__ConflictViewParser(ServerlessButton, {
+      name: "name",
+      params: ['hi'],
       variant: "green"
     }, "Green Button")), global.__ConflictViewParser(ActionRow, null, global.__ConflictViewParser(Button, {
       onclick: event => {
