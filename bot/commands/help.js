@@ -2,7 +2,7 @@ import Command from '@conflict/beta/commands';
 import { Embed } from '@conflict/beta/components';
 
 export default new Command({
-    name: 'hello-vercel',
+    name: 'hello-vercel4',
     description: 'Hello there Vercel!',
     options: [],
     execute: async (command, options, utils) => {
