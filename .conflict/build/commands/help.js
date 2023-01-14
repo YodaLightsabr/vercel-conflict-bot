@@ -5,27 +5,11 @@ export default new Command({
   description: 'Hello there Vercel!',
   options: [],
   execute: async (command, options, utils) => {
-    const view = global.__ConflictViewParser("message", null, global.__ConflictViewParser(Embed, {
+    await command.view(global.__ConflictViewParser("message", null, global.__ConflictViewParser(Embed, {
       color: "#ff3333",
       image: {
         url: "https://conflict.js.org/favicon.png"
       }
-    }, global.__ConflictViewParser("title", null, "Hello, Vercel!"), global.__ConflictViewParser("description", null, "Welcome to **Conflict**.")));
-
-    console.log({
-      view
-    });
-    command.respond(view);
+    }, global.__ConflictViewParser("title", null, "Hello, Vercel!"), global.__ConflictViewParser("description", null, "Welcome to **Conflict**."))));
   }
-});
-
-const view = global.__ConflictViewParser("message", null, global.__ConflictViewParser(Embed, {
-  color: "#ff3333",
-  image: {
-    url: "https://conflict.js.org/favicon.png"
-  }
-}, global.__ConflictViewParser("title", null, "Hello, Vercel!"), global.__ConflictViewParser("description", null, "Welcome to **Conflict**.")));
-
-console.log({
-  view
 });
