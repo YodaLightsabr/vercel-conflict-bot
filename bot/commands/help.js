@@ -15,6 +15,6 @@ export default new Command({
             </message>
         );
         console.log({view});
-        command.view(view);
+        command.respond(view);
     }
 });
